@@ -1,0 +1,5 @@
+#A simple example to illustrate a straight forward way to calculate distances between point a and b from spatial coordinates
+
+library(geosphere)
+a <- c(-73.98215, 40.76794)b <- c(-73.96463, 40.76560)
+distCosine(a, b)
